@@ -31,8 +31,8 @@ $(call inherit-product, device/oppo/find7/full_find7.mk)
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # Override AOSP build properties
-PRODUCT_NAME := metallium_find7
-PRODUCT_DEVICE := Find7
+PRODUCT_NAME := Find7
+PRODUCT_DEVICE := find7
 PRODUCT_BRAND := OPPO
 PRODUCT_MANUFACTURER := OPPO
 
