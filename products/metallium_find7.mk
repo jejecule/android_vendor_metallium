@@ -16,9 +16,6 @@
 
 ifeq (metallium_find7,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := metallium_xxhdpi
-
 # Inherit telephony common stuff
 $(call inherit-product, vendor/metallium/configs/telephony.mk)
 
@@ -28,19 +25,8 @@ include vendor/metallium/main.mk
 # Inherit device configuration
 $(call inherit-product, device/oppo/find7/full_find7.mk)
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
-
 # Override AOSP build properties
 PRODUCT_NAME := metallium_find7
 PRODUCT_DEVICE := find7
-PRODUCT_BRAND := OPPO
-PRODUCT_MANUFACTURER := OPPO
 
-TARGET_VENDOR_PRODUCT_NAME := find7
-
-# Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=find7 TARGET_DEVICE=find7
-
-## Use the latest approved GMS identifiers unless running a signed build
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=5.0/LRX21M/1426582430:user/release-keys PRIVATE_BUILD_DESC="msm8974-user 5.0 LRX21M 193 release-keys"
 endif
