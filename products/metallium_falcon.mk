@@ -1,7 +1,7 @@
 $(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
-# Inheriting shit not allowed.
-# (call inherit-product, vendor/metallium/config/common_full_phone.mk)
+# Inherit telephony common stuff
+$(call inherit-product, vendor/metallium/configs/telephony.mk)
 
 # Include metallium common configuration
 include vendor/metallium/main.mk
