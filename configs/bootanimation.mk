@@ -15,16 +15,16 @@
 
 # Add Metallium bootanimation based on xxxhdpi xxhdpi xhdpi hdpi tvdpi resolution
 
-# Merk XXHDPI Devices
+# Metallium XXHDPI Devices
 
 ifneq ($(filter metallium_bacon metallium_find7 metallium_jactivelte metallium_d802,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/metallium/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
 endif
 
-#Merk XHDPI Devices
+#Metallium XHDPI Devices
 
-ifneq ($(filter metallium_armani metallium_n7100,$(TARGET_PRODUCT)),)
+ifneq ($(filter metallium_armani metallium_n7100 metallium_falcon,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
        vendor/metallium/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
