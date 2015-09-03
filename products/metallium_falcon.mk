@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (metallium_d802,$(TARGET_PRODUCT))
+ifeq (metallium_falcon,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := metallium_xhdpi
