@@ -32,7 +32,9 @@ endif
 ifeq (metallium_n7100,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_n7100.mk
 endif
-
+ifeq (metallium_mako,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_mako.mk
+endif
 ifeq (metallium_sprout,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_sprout.mk
 endif
