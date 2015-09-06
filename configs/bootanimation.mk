@@ -24,7 +24,7 @@ endif
 
 #Metallium XHDPI Devices
 
-ifneq ($(filter metallium_armani metallium_n7100 metallium_falcon metallium_mako,$(TARGET_PRODUCT)),)
+ifneq ($(filter metallium_armani metallium_falcon metallium_n7100 metallium_mako metallium_tilapia,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
        vendor/metallium/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
