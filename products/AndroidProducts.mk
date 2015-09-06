@@ -55,3 +55,6 @@ ifeq (metallium_d802,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_d802.mk 
 endif 
 
+ifeq (metallium_tilapia,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_tilapia.mk 
+endif 
