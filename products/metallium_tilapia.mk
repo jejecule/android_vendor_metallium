@@ -12,7 +12,7 @@ TARGET_SCREEN_WIDTH := 800
 # $(call inherit-product, vendor/metallium/config/common_full_tablet_wifionly.mk)
 
 # Inherit telephony common stuff
-$(call inherit-product, vendor/metallium/config/telephony.mk)
+$(call inherit-product, vendor/metallium/configs/telephony.mk)
 
 # Include AOSPA common configuration
 include vendor/metallium/main.mk
