@@ -9,3 +9,4 @@ add_lunch_combo metallium_sprout_b-userdebug
 add_lunch_combo metallium_find7-userdebug
 add_lunch_combo metallium_d802-userdebug
 add_lunch_combo metallium_falcon-userdebug
+add lunch_combo metallium_tilapia-userdebug
