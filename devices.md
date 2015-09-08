@@ -16,6 +16,8 @@ jactivelte | hashem78
 
 KS01LTE| Buda1996
 
-lettuce | Pranav
+lettuce | omkar shinde
+
+mako | Buda1996
 
 tomato | Men_in_black007
