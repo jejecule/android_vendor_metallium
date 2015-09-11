@@ -35,7 +35,7 @@ include vendor/metallium/main.mk
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := armani 
-PRODUCT_NAME := armani 
+PRODUCT_NAME := metallium_armani 
 PRODUCT_BRAND := Xiaomi 
 PRODUCT_MODEL := HM 1S 
 PRODUCT_MANUFACTURER := Xiaomi 
