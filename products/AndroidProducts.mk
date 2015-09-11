@@ -49,6 +49,10 @@ ifeq (metallium_nicki,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_nicki.mk
 endif
 
+ifeq (metallium_oneplus2,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_oneplus2.mk
+endif
+
 ifeq (metallium_sprout,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_sprout.mk
 endif
