@@ -21,9 +21,17 @@ ifeq (metallium_bacon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_bacon.mk
 endif
 
+ifeq (metallium_cancro,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_cancro.mk
+endif
+
 ifeq (metallium_d802,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_d802.mk 
 endif 
+
+ifeq (metallium_falcon,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_falcon.mk
+endif
 
 ifeq (metallium_find7,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_find7.mk
