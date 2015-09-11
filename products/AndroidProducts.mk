@@ -21,20 +21,34 @@ ifeq (metallium_bacon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_bacon.mk
 endif
 
+ifeq (metallium_d802,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_d802.mk 
+endif 
+
+ifeq (metallium_find7,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_find7.mk
+endif
+
 ifeq (metallium_jactivelte,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_jactivelte.mk
+endif
+
+ifeq (metallium_ks01lte,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_ks01lte.mk
+endif
+
+ifeq (metallium_mako,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_mako.mk
+endif
+
+ifeq (metallium_n7100,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_n7100.mk
 endif
 
 ifeq (metallium_nicki,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_nicki.mk
 endif
 
-ifeq (metallium_n7100,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_n7100.mk
-endif
-ifeq (metallium_mako,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_mako.mk
-endif
 ifeq (metallium_sprout,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_sprout.mk
 endif
@@ -42,18 +56,6 @@ endif
 ifeq (metallium_sprout_b,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_sprout_b.mk
 endif
-
-ifeq (metallium_find7,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_find7.mk
-endif
-
-ifeq (metallium_ks01lte,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_ks01lte.mk
-endif
-
-ifeq (metallium_d802,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_d802.mk 
-endif 
 
 ifeq (metallium_tilapia,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/metallium_tilapia.mk 
