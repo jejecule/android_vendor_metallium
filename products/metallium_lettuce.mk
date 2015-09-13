@@ -14,6 +14,9 @@
 
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
+# OVERLAY_TARGET adds overlay asset source
+OVERLAY_TARGET := metallium_xhdpi
+
 # Inherit telephony common stuff
 $(call inherit-product, vendor/metallium/configs/telephony.mk)
 
